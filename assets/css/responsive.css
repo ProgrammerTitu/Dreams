@@ -1,0 +1,35 @@
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
+
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .amazing_img img {
+    margin-left: 0px;
+  }
+  .name,
+  .box {
+    width: 350px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .amazing_img img {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .amazing_img img {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .amazing_img img {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) {}
+/* Responsiv CSS End Inportent */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */

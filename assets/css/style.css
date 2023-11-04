@@ -1,0 +1,414 @@
+/* ================ Designed by Programmer Titu ================= */
+
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&display=swap');
+
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Header Part Start */
+.header_part {
+  /* background: rgba(0,0,0,.5); */
+  background: url(../img/title_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header_overlay {
+  background: rgba(0, 0, 0, .75);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #35C1F7;
+  transition: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 25px 0;
+}
+
+
+/* Title Part Start */
+.hero_part {
+  padding: 150px 0;
+}
+.hero_part h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.hero_part img {
+  margin: 40px 0;
+}
+.hero_part p {
+  font-size: 20px;
+  color: #cccccc;
+}
+/* Title Part End */
+
+/* Header Part End */
+
+
+/* Service Part Start */
+
+.service_head h2 {
+  font-size: 40px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.service_con {
+  padding: 40px 15px;
+}
+.service_con:hover .service_icon i {
+  color: #CBEEFA;
+  transition: 0.3s;
+}
+.service_icon i {
+  font-size: 75px;
+  color: #dddddd;
+  padding: 35px 0;
+}
+.service_title h5 {
+  font-size: 17px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.service_title:hover h5 {
+  color: #35C1F7;
+  transition: 0.3s;
+}
+
+.service_title p {
+  font-size: 15px;
+  color: #888888;
+}
+/* Service Part End */
+
+
+/* Expertise Part Start */
+.expertise_part {
+  background: url(../img/experties_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.expertise_head {
+  padding-top: 80px;
+}
+.expertise_head h2 {
+  padding: 20px 0 10px 0;
+  font-size: 40px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.expertise_head p {
+  padding: 10px 0 20px 0;
+  font-size: 16px;
+  color: #777777;
+}
+.expertise_con {
+  padding: 10px 0;
+}
+.expert_icon_main i {
+  font-size: 30px;
+  color: #777777;
+  padding-right: 10px;
+}
+.expert_head h5 {
+  font-size: 15px;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.expert_head p {
+  font-size: 14px;
+  color: #777777;
+}
+.expertise_btn {
+  margin-top: 30px;
+}
+.expertise_btn_main {
+  width: 170px;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #cbeefa;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expertise_btn_main:hover {
+  background: #cbeefa;
+  /* border: 1px solid #cbeefa; */
+  transition: 0.3s;
+}
+
+.expertise_btn_main a {
+  font-size: 15px;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Expertise Part End */
+
+
+/* Amazing Portfolio Part Start */
+
+.amazing_head h2 {
+  padding: 10px 0;
+  font-size: 40px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.amazing_portfolio {
+  background: url(../img/amazing_portfolio_bg.png) no-repeat;
+  background-size: contain;
+  background-position: center; 
+}
+.amazing_text p {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #777777;
+}
+.amazing_icon i {
+  font-size: 30px;
+  color: #777777;
+  padding-right: 10px;
+}
+.amazing_icon,
+.amazing_icon_head {
+  padding: 10px 0;
+}
+.amazing_icon_head h5 {
+  font-size: 16px;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.amazing_icon_head p {
+  font-size: 14px;
+  color: #777777;
+}
+.amazing_img img {
+  margin-left: 116px;
+}
+/* Amazing Portfolio Part End */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
+
+/* Portfolio Part Start */
+
+.portfolio_img img {
+  height: 350px;
+  width: 470px;
+}
+
+/* Portfolio Part End */
+
+
+/* About Part Start */
+.bg {
+  background: url(../img/about_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+.about_head {
+  padding: 80px 0;
+}
+.about_head h2 {
+  font-size: 40px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about_con_head h5 {
+  font-size: 16px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.about_con_head p {
+  font-size: 14px;
+  color: #777777;
+}
+/* About Part End */
+
+
+/* Awesome Team Part Start */
+.awesome_team_part {
+  padding-bottom: 80px;
+}
+.awesome_img img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin: 15px 0;
+}
+.team_name h5 {
+  font-size: 16px;
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.team_name p {
+  font-size: 14px;
+  color: #777777;
+}
+.team_icon_inner a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #000;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.team_icon_inner i {
+  color: #fff;
+}
+.twitter:hover a {
+ background: #00abed;
+ transition: 0.3s;
+}
+.facebook:hover a {
+  background: #3b5997;
+  transition: 0.3s;
+}
+.pinterest:hover a {
+  background: #cb1f27;
+  transition: 0.3s;
+}
+.google:hover a {
+  background: #d95131;
+  transition: 0.3s;
+}
+/* Awesome Team Part End */
+
+
+/* Contact Part Start */
+.contact_part {
+  padding: 80px 0;
+  background: #111111;
+}
+.contact_head h2 {
+  padding: 15px 0;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact_head p {
+  font-size: 14px;
+  color: #fff;
+}
+.contact_icon {
+  padding: 10px 0;
+}
+.contact_icon i {
+  font-size: 25px;
+  padding-right: 15px;
+  color: #fff;
+}
+.contact_icon p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.contact_icon a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact_icon i:hover,
+.contact_icon a:hover {
+  color: #35C1F7;
+  transition: 0.3s;
+}
+
+
+/* Contact Form */
+.name {
+  height: 55px;
+  width: 460px;
+  border: 2px solid #cbcbcb;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #bbbbbb;
+  margin: 12px 0;
+  padding: 20px;
+}
+.box {
+  height: 170px;
+  width: 460px;
+  border: 2px solid #cbcbcb;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #bbbbbb;
+  margin: 12px 0;
+  padding: 20px;
+}
+.btn {
+  height: 60px;
+  width: 190px;
+  background: #35c2f8;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 15px;
+}
+.btn:hover {
+  background: #fff;
+  transition: 0.3s;
+}
+
+
+/* CopyRight Area */
+.copyright_area {
+  margin-top: 60px;
+  margin-bottom: -60px;
+}
+.copyright_area p {
+  font-size: 14px;
+  color: #fff;
+  padding: 25px 0 0 0;
+}
+
+.copyright_area span {
+  color: #35C1F7;
+}
+.copyright_area span:hover {
+  color: #CBEEFA;
+  transition: 0.3s;
+}
+
+/* Contact Part End */
+
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
